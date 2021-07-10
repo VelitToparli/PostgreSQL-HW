@@ -1,0 +1,4 @@
+UPDATE employee
+SET birthday = '1999-09-09'
+WHERE id BETWEEN 12 AND 15
+RETURNING *;
